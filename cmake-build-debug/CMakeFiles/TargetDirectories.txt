@@ -1,0 +1,4 @@
+/cygdrive/c/Users/Ann/CLionProjects/calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Ann/CLionProjects/calculator/cmake-build-debug/CMakeFiles/calc_lib.dir
+/cygdrive/c/Users/Ann/CLionProjects/calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Ann/CLionProjects/calculator/cmake-build-debug/CMakeFiles/main.dir

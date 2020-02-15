@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Ann/CLionProjects/calculator/Calculator.h
+string
+-
+queue
+-
+stack
+-
+stdexcept
+-
+iostream
+-
+cmath
+-
+algorithm
+-
+
+/cygdrive/c/Users/Ann/CLionProjects/calculator/main.cpp
+Calculator.h
+/cygdrive/c/Users/Ann/CLionProjects/calculator/Calculator.h
+
