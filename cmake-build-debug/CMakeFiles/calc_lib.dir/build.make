@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Ann/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /home/ann/Programs/clion-2019.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Ann/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /home/ann/Programs/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Ann/CLionProjects/calculator
+CMAKE_SOURCE_DIR = /home/ann/CLionProjects/calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Ann/CLionProjects/calculator/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ann/CLionProjects/calculator/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calc_lib.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/calc_lib.dir/flags.make
 
 CMakeFiles/calc_lib.dir/calculator.cpp.o: CMakeFiles/calc_lib.dir/flags.make
 CMakeFiles/calc_lib.dir/calculator.cpp.o: ../calculator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ann/CLionProjects/calculator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calc_lib.dir/calculator.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calc_lib.dir/calculator.cpp.o -c /cygdrive/c/Users/Ann/CLionProjects/calculator/calculator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ann/CLionProjects/calculator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calc_lib.dir/calculator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calc_lib.dir/calculator.cpp.o -c /home/ann/CLionProjects/calculator/calculator.cpp
 
 CMakeFiles/calc_lib.dir/calculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calc_lib.dir/calculator.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ann/CLionProjects/calculator/calculator.cpp > CMakeFiles/calc_lib.dir/calculator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ann/CLionProjects/calculator/calculator.cpp > CMakeFiles/calc_lib.dir/calculator.cpp.i
 
 CMakeFiles/calc_lib.dir/calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calc_lib.dir/calculator.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ann/CLionProjects/calculator/calculator.cpp -o CMakeFiles/calc_lib.dir/calculator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ann/CLionProjects/calculator/calculator.cpp -o CMakeFiles/calc_lib.dir/calculator.cpp.s
 
 # Object files for target calc_lib
 calc_lib_OBJECTS = \
@@ -80,7 +80,7 @@ calc_lib_EXTERNAL_OBJECTS =
 libcalc_lib.a: CMakeFiles/calc_lib.dir/calculator.cpp.o
 libcalc_lib.a: CMakeFiles/calc_lib.dir/build.make
 libcalc_lib.a: CMakeFiles/calc_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Ann/CLionProjects/calculator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcalc_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ann/CLionProjects/calculator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcalc_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/calc_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calc_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/calc_lib.dir/clean:
 .PHONY : CMakeFiles/calc_lib.dir/clean
 
 CMakeFiles/calc_lib.dir/depend:
-	cd /cygdrive/c/Users/Ann/CLionProjects/calculator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Ann/CLionProjects/calculator /cygdrive/c/Users/Ann/CLionProjects/calculator /cygdrive/c/Users/Ann/CLionProjects/calculator/cmake-build-debug /cygdrive/c/Users/Ann/CLionProjects/calculator/cmake-build-debug /cygdrive/c/Users/Ann/CLionProjects/calculator/cmake-build-debug/CMakeFiles/calc_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ann/CLionProjects/calculator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ann/CLionProjects/calculator /home/ann/CLionProjects/calculator /home/ann/CLionProjects/calculator/cmake-build-debug /home/ann/CLionProjects/calculator/cmake-build-debug /home/ann/CLionProjects/calculator/cmake-build-debug/CMakeFiles/calc_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/calc_lib.dir/depend
 

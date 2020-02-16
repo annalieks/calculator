@@ -3,7 +3,7 @@
 #include "Calculator.h"
 bool isoper(char op);
 double sum(double val1, double val2);
-double substact(double val1, double val2);
+double subtract(double val1, double val2);
 double multiply(double val1, double val2);
 double divide(double val1, double val2);
 
@@ -39,7 +39,7 @@ double Calculator::apply_binary_oper(double lval, double rval, char oper)
 	{
 	case '+': result = sum(lval, rval);
 		break;
-	case '-': result = substact(lval, rval);
+	case '-': result = subtract(lval, rval);
 		break;
 	case '*': result = multiply(lval, rval);
 		break;
@@ -231,7 +231,7 @@ double sum(double val1, double val2)
 {
 	return val1 + val2;
 }
-double substact(double val1, double val2)
+double subtract(double val1, double val2)
 {
 	return val1 - val2;
 }

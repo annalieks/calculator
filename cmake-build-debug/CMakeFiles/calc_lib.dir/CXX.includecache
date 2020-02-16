@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Ann/CLionProjects/calculator/Calculator.h
+/home/ann/CLionProjects/calculator/Calculator.h
 string
 -
 queue
@@ -22,7 +22,7 @@ cmath
 algorithm
 -
 
-/cygdrive/c/Users/Ann/CLionProjects/calculator/calculator.cpp
+/home/ann/CLionProjects/calculator/calculator.cpp
 Calculator.h
-/cygdrive/c/Users/Ann/CLionProjects/calculator/Calculator.h
+/home/ann/CLionProjects/calculator/Calculator.h
 
