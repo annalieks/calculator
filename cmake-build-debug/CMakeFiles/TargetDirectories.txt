@@ -1,4 +1,0 @@
-/home/ann/Test/calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ann/Test/calculator/cmake-build-debug/CMakeFiles/calc_lib.dir
-/home/ann/Test/calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ann/Test/calculator/cmake-build-debug/CMakeFiles/main.dir
